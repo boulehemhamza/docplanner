@@ -1,0 +1,191 @@
+.logo-docplanner {
+  width: 268px;
+  height: 33px;
+}
+.docplaner-header {
+  display: flex;
+  justify-content: space-between;
+}
+body {
+  color: grey;
+  font-family: sans-serif;
+}
+a {
+  text-decoration: none;
+  color: grey;
+}
+.active {
+  color: #00ccb1;
+}
+
+.marged {
+  margin: 0px 15% !important;
+}
+.introduction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1.6;
+}
+
+.title-introduction {
+  color: #00ccb1;
+}
+.parag-introduction {
+  display: flex;
+}
+
+.cards {
+  display: flex;
+  color: white;
+  margin: 100px;
+  position: relative;
+}
+.patient-card {
+  background-color: #00ccb1;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  margin: 20px;
+  width: 500px;
+  height: 400px;
+  padding: 17px;
+
+}
+.doctor-card {
+  background-color: #3d83df;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  margin: 20px;
+  width: 500px;
+  height: 400px;    
+  padding: 17px;
+
+}
+.img-patient {
+  max-width: 84%;
+  height: auto;
+  position: relative;
+  left: 210px;
+  bottom: -8px;
+}
+.img-doctor {
+  max-width: 75%;
+  height: auto;
+  position: relative;
+  left: 231px;
+  bottom: -55px;
+}
+.button-patient {
+  padding: 20px;
+}
+.button-patient select {
+  border-radius: 6px;
+  background: white;
+  height: 33px;
+  width: 35%;
+
+  font-size: 16px;
+}
+.logos {
+  display: flex;
+  justify-content: space-around;
+}
+.logo-image {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 46px;
+  margin-top: 28px;
+  justify-content: space-between;
+  margin-right: 123px;
+}
+.text {
+  margin-left: 122px;
+  width: 223px;
+  line-height: 200%;
+}
+.logo1 svg {
+  fill: rgb(35, 37, 37);
+  width: 15%;
+  margin-left: 6%;
+}
+.logo1 svg:hover {
+  fill: #00ccb1;
+}
+.theworld {
+  background-color: #d9f7f6;
+  display: flex;
+  justify-content: space-between;
+  max-height: 509px;
+    overflow: hidden;
+}
+.rightworld {
+  display: flex;
+}
+
+.card-world {
+  width: 250px;
+  height: 164px;
+
+  padding: 19px;
+  margin: 15px;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+}
+.ledear-patient {
+  margin-top: 38px;
+}
+
+.card-world h3 {
+  color: #77bea4;
+}
+
+.textworldlogo {
+  color: #77bea4;
+  margin-left: 143px;
+  font-size: 20px;
+}
+.textworldlogo p {
+  color: #74749c;
+  font-size: 15px;
+}
+.texte-improve h1 {
+  text-align: center;
+  color: #00b39b;
+  font-size: 30px;
+  margin: 60px;
+}
+.texte-improve p {
+  text-align: center;
+  line-height: 24px;
+}
+.card-city-para{
+  display: flex;
+    justify-content: space-around;
+    width: 314px;
+    align-items: center;}
+
+.card-city button {    width: auto;
+  height: 35px;
+  background-color: #1662C6;
+  color: white;
+  
+  border-radius: 7px;}
+ .card-city {display: flex;
+flex-wrap: wrap;}
+.card-city > div{
+  margin: 4px;
+}
+footer{
+  text-align: center;
+  font-size: 13px;
+}
+footer a{
+  color:blue ;
+}
